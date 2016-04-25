@@ -11,6 +11,9 @@ setup_enviroment() {
         exit 1
     fi
     local link_path=`realpath $M2_HOME`
+
+    # Assumes M2_HOME points to a symbolic link named "current"
+    # which points to the real Maven instalaltion
     ln -s -f $maven_dir ${link_path%/apache-*}/current
 }
 
