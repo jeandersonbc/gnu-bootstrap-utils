@@ -13,6 +13,9 @@ check_commands=(
 
     # Communications
     "skype"
+
+    # Reading
+    "mendeleydesktop"
 )
 for cmd in ${check_commands[@]}; do
     path=`which $cmd`
