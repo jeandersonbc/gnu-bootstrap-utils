@@ -8,7 +8,7 @@ scaffold_directories() {
     if [ ! -d "$TOOLS" ]; then
         mkdir $TOOLS
     fi
-    dirs=("java" "maven" "eclipse")
+    dirs=("java" "maven")
     for dir in ${dirs[@]}; do
         mkdir $TOOLS/$dir
         ln -s -f /dev/null $TOOLS/$dir/current
