@@ -4,19 +4,37 @@
 "
 set nocompatible
 
-colorscheme evening
+colorscheme elflord
 
 syntax on
 set number
 set spell
 set cursorline
+set title
 
-set incsearch
 
 " Tab settings
 set expandtab
 set shiftwidth=4
 set tabstop=4
+set shiftround
 
 " C auto indent style
 set cindent
+
+" Some tweaks that I think are cool
+" REF: http://vim.wikia.com/wiki/Example_vimrc
+
+filetype indent plugin on
+set wildmenu 
+set showcmd
+set nomodeline
+
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+set ruler
+set showmatch
+
