@@ -1,0 +1,7 @@
+[branch]
+	autosetuprebase = remote
+[user]
+	name = Jeanderson Candido
+	email = jeandersonbc@gmail.com
+[core]
+	editor = vi
