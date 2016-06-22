@@ -11,3 +11,6 @@ export PATH=$M2_HOME/bin/:$PATH
 
 export ANT_HOME=$TOOLS/ant/current
 export PATH=$ANT_HOME/bin/:$PATH
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
