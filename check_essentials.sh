@@ -8,7 +8,6 @@ check_commands=(
     "git"
 
     # Powerful editors
-    "atom"
     "vim"
 
     # Communications

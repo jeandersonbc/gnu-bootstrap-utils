@@ -8,7 +8,6 @@ colorscheme elflord
 
 syntax on
 set number
-set spell
 set cursorline
 set title
 

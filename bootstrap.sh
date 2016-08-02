@@ -1,5 +1,5 @@
 BASE_DIR=`pwd`
-EXPORTED_PROFILE=$BASE_DIR/src/profile.sh
+EXPORTED_PROFILE=$BASE_DIR/dotfiles/profile.sh
 
 # Import exported file context to this setup script
 . "$EXPORTED_PROFILE"
